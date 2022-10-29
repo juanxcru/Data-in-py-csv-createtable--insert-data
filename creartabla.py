@@ -12,6 +12,5 @@ def CrearTablaID (nombreTabla, lista) :
        if(char.isalpha()) :
             salida = 'CREATE TABLE IF NOT EXISTS ' + nombreTabla + '( ' + header[0] + ' TEXT PRIMARY KEY , '  + ', '.join("{col} TEXT ".format(col=col) for col in header[1:])  + ')'
             return salida
-    salida = 'CREATE TABLE IF NOT EXISTS ' + nombreTabla + '( ' + header[0] + ' TEXT PRIMARY KEY , '  + ', '.join("{col} TEXT ".format(col=col) for col in header[1:])  + ')'
-    
+    salida = 'CREATE TABLE IF NOT EXISTS ' + nombreTabla + '( ' + header[0] + ' INTEGER PRIMARY KEY , '  + ', '.join("{col} TEXT ".format(col=col) for col in header[1:])  + ')'
     return salida

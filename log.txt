@@ -1,0 +1,8 @@
+Fecha Ejecucion : 2022-10-29 14:41:36.150696
+Error : "delimiter" must be a 1-character string
+Fecha Ejecucion : 2022-10-29 14:57:18.779585
+Fecha Ejecucion : 2022-10-29 14:57:36.952328
+Se abrio el siguiente archivo <_io.TextIOWrapper name='C:\\Users\\Juan Cruz\\Documents\\UPE\\ID\\TP/csv/Tipo.csv' mode='r' encoding='cp65001'>
+Se creo una tabla
+Se hizo la siguiente query CREATE TABLE IF NOT EXISTS asdf( CODIGO TEXT PRIMARY KEY , DESCRIPCION TEXT )
+Se hizo la siguiente query INSERT INTO asdf(CODIGO, DESCRIPCION) VALUES (?, ?)
